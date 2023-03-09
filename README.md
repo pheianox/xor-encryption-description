@@ -1,4 +1,4 @@
-# xor-encryption-description
+# xor-encryption-decryption
 
 Here is an XOR encryption algorithm that takes a plaintext message and a secret key, and returns a ciphertext
 
