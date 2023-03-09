@@ -1,10 +1,10 @@
-const message = 'salam world!'
+const message = 'Hello, World!'
 const key = '123'
-const ciphertext = xorEncrypt(message, key)
-const descrypted = xorEncrypt(ciphertext, key)
+const encrypted = xorEncrypt(message, key)
+const decrypted = xorEncrypt(encrypted, key)
 
-console.log(message,'->',key,'->', ciphertext)
-console.log(ciphertext,'->', key,'->', descrypted)
+console.log(message,'->',key,'->', encrypted)
+console.log(encrypted,'->', key,'->', decrypted)
 
 function xorEncrypt(plaintext, key) {
   // Convert plaintext and key to binary format
